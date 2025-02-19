@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url("background.jpg") no-repeat center fixed;
+}
+
+main {
+	background-color: white;
+	opacity: .77;
+	width: 60%;
+	margin: 100px auto;
+	padding: 5px;
+	border-radius: 2%;
+	filter: opacity(200%);
+}
+
+header{
+	background: url("logo.png") no-repeat right;
+	background-size: 35%;
+	text-align: justify;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+	filter: opacity(55%)
+}
+
+nav {
+	font-weight: bold;
+	text-align: center; 
+}
+
+nav a{
+	text-decoration: none;
+	color: #29485d;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #ff5733;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, "Times New Roman", serif; 
+}
+
+h3{
+	color: #29485d;
+}
+
+ul {
+	list-style-image: url('marker.gif');
+}
+
+li {
+	line-height: 1.5;
+}
+
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center; 
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 5px;
+	background: white;
+	width: 20%;
+	margin-top: 30%;
+}
+
+.web {
+	font-weight: bold;
+	color: red;
+}
+
+#contact {
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+	background-color: #c7b2ae;
+	border-radius: 5%;
+	
+}
+
+.attraction-image {
+	max-width: 600px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 20px 20px 10px grey;
+}
