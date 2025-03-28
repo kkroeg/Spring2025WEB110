@@ -204,6 +204,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+  #wrapper {
+    width: 90%;
+  }
   .box {
     display: block;
   }
