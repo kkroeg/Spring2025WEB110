@@ -208,7 +208,7 @@ footer {
     overflow: auto;
   }
   #wrapper {
-    max-width: 110%;
+    width: 110%;
   }
    #wrapper2 {
      width: 60%;
