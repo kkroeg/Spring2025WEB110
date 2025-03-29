@@ -205,7 +205,7 @@ footer {
 
 @media (max-width: 768px) {
   .box {
-    display: block;
+    display: grid;
   h1 {
     font-size: 1.5;
   }
