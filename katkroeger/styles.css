@@ -204,8 +204,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
-    overflow: auto;
   .box {
     display: block;
   h1 {
