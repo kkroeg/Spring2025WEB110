@@ -44,6 +44,10 @@ h1 {
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
+h1:hover {
+  text-shadow: 0 0, 0 0 5px #0000FF;
+}
+
 #wrapper2 {
   max-width: 90%;
   display: inline;
@@ -158,10 +162,6 @@ figcaption {
   text-shadow: none;
   color: black; 
   line-height: 1.75;
-}
-
-figcaption:hover {
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 .taphoto {
