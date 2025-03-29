@@ -205,7 +205,7 @@ footer {
 
 @media (max-width: 768px) {
   #wrapper {
-    width: 90%;
+    width: 50%;
   }
    #wrapper2 {
      width: 45%;
