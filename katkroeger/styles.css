@@ -214,6 +214,9 @@ footer {
      width: 60%;
      height: 80%
    }
+  h1 {
+    font-size: 2;
+  }
    nav {
       font-size: 1.5;
     }
