@@ -206,14 +206,8 @@ footer {
 @media (max-width: 768px) {
   body {
     overflow: auto;
-  }
-  #wrapper {
-    width: 100%;
-  }
-   #wrapper2 {
-     width: 60%;
-     height: 80%
-   }
+  .box {
+    display: block;
   h1 {
     font-size: 1.5;
   }
@@ -223,9 +217,6 @@ footer {
    p {
      font-size: 1.5;
    }
-  .box {
-    display: block;
-  }
   #resume_img {
     width: 90%;
   }
