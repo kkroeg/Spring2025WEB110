@@ -207,13 +207,13 @@ footer {
   .box {
     display: grid;
   h1 {
-    font-size: 1.5;
+    font-size: 1;
   }
    nav {
-      font-size: 1.5;
+      font-size: 1;
     }
    p {
-     font-size: 1.5;
+     font-size: 1;
    }
   .taphoto, .jsphoto {
     width: 40%;
