@@ -215,6 +215,9 @@ footer {
    p {
      font-size: 1.5;
    }
+  .taphoto, .jsphoto {
+    width: 40%;
+  }  
   #resume_img {
     width: 90%;
   }
