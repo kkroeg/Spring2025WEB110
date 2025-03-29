@@ -204,8 +204,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
   #wrapper {
-    width: 50%;
+    width: 80%;
   }
    #wrapper2 {
      width: 45%;
