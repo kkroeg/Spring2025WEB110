@@ -208,14 +208,14 @@ footer {
     overflow: auto;
   }
   #wrapper {
-    width: 110%;
+    width: 100%;
   }
    #wrapper2 {
      width: 60%;
      height: 80%
    }
   h1 {
-    font-size: 2;
+    font-size: 1.5;
   }
    nav {
       font-size: 1.5;
