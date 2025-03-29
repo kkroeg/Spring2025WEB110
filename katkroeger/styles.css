@@ -218,6 +218,9 @@ footer {
   .taphoto, .jsphoto {
     width: 40%;
   }  
+  figcaption: {
+    font-size: 0.1;
+  }
   #resume_img {
     width: 90%;
   }
