@@ -261,6 +261,7 @@ html, body {
   #resume_img {
     width: 80%; /* Scales resume image */
     margin: auto;
+    padding: none;
   }
 
   .jsphoto, .taphoto {
