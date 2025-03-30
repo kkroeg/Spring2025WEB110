@@ -241,7 +241,7 @@ footer {
   }
 
   .image1, .image_title1 {
-    width: 100%; /* Fits screen width */
+    width: 200%; /* Fits screen width */
     font-size: 1.5em; /* Scales text */
   }
 
