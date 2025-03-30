@@ -240,9 +240,14 @@ footer {
     justify-content: center;
   }
 
-  .image1, .image_title1 {
-    width: 200%; /* Fits screen width */
+ .image_title1 {
+    width: 100%; /* Fits screen width */
     font-size: 1.5em; /* Scales text */
+  }
+  .image1 {
+    display: block; /* Makes it behave like a block element */
+    margin: 0 auto; /* Centers the element horizontally */
+    width: 100%; /* Ensures it fits the container */
   }
 
   figure, figcaption {
