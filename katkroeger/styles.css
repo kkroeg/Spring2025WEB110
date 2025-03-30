@@ -203,26 +203,59 @@ footer {
 
 }
 
-@media (max-width: 480px) {
-  .box {
-    display: grid;
-  h1 {
-    font-size: 1;
-  }
-   nav {
-      font-size: 1;
-    }
-   p {
-     font-size: 1;
-   }
-  .taphoto, .jsphoto {
-    width: 40%;
-  }  
-  figcaption: {
-    font-size: 0.1;
-  }
-  #resume_img {
-    width: 90%;
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+    font-family: monospace;
+    overflow: auto;
   }
 
+  #wrapper {
+    max-width: 90%; /* Adjusts width for mobile */
+    padding: 10px; /* Adds inner padding */
+    border: solid 10px; /* Scales down border */
+  }
+
+  p {
+    margin: 15px auto;
+    max-width: 85%; /* Fits smaller screens */
+    font-size: 12px; /* Scales font size */
+  }
+
+  nav {
+    font-size: 14px; /* Reduces size */
+    margin: 10px 0; /* Adjusts spacing */
+  }
+
+  h1 {
+    font-size: 50px; /* Reduces headline size */
+    letter-spacing: 0.05em; /* Adjusts spacing */
+    padding: 5px;
+  }
+
+  .box {
+    display: block; /* Stacks items vertically */
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .image1, .image_title1 {
+    width: 100%; /* Fits screen width */
+    font-size: 1.5em; /* Scales text */
+  }
+
+  figure, figcaption {
+    width: auto; /* Flexibility for small screens */
+    font-size: 1em; /* Scales captions */
+  }
+
+  #resume_img {
+    width: 80%; /* Scales resume image */
+    margin: auto;
+  }
+
+  .jsphoto, .taphoto {
+    width: 70%; /* Adjusts proportions */
+    height: auto; /* Maintains aspect ratio */
+  }
 }
