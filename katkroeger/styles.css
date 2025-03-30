@@ -208,9 +208,12 @@ footer {
   body {
     text-align: center;
     font-family: monospace;
-    overflow: auto;
   }
-
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
   #wrapper {
     max-width: 90%; /* Adjusts width for mobile */
     padding: 10px; /* Adds inner padding */
