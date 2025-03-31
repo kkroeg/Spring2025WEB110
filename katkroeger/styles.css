@@ -260,6 +260,7 @@ html, body {
   figure, figcaption {
     width: auto; /* Flexibility for small screens */
     font-size: 1em; /* Scales captions */
+    padding: 40px;
   }
 
   #resume_img {
