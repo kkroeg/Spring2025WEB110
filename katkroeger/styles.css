@@ -271,5 +271,6 @@ html, body {
   .jsphoto, .taphoto {
     width: 70%; /* Adjusts proportions */
     height: auto; /* Maintains aspect ratio */
+    padding: 20px;
   }
 }
