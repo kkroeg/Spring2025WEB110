@@ -247,10 +247,14 @@ html, body {
     justify-content: center;
   }
 
- .image_title1 {
-    width: 100%; /* Fits screen width */
-    font-size: 1.5em; /* Scales text */
+.image_title1, .image_title2 {
+    display: block; /* Ensures they are visible as block elements */
+    font-size: 1.5em; /* Adjusts size for better readability */
+    margin: 10px auto; /* Centers the titles and adds spacing */
+    text-align: center; /* Centers the text horizontally */
+    color: #000; /* Ensure a contrast color for readability */
   }
+
   .image1 {
     display: block; /* Makes it behave like a block element */
     margin: 0 auto; /* Centers the element horizontally */
