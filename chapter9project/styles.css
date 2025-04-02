@@ -1,0 +1,22 @@
+table {
+	border: solid 2px #222;
+	margin: auto;
+	width: 80%;
+}
+th, td {
+	border: solid 2px #222;
+	padding: 0.5em;
+	text-align: center;	
+}
+th {
+	background-color: #f4e1d2;
+}
+.movietitle {
+	text-align: left;
+}
+tr:nth-child(even) {
+	background-color: #f4e1d2;
+}
+tr:nth-child(odd) {
+	background-color: #c5dff8;
+}
