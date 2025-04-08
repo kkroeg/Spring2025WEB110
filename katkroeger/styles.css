@@ -146,6 +146,7 @@ h1:hover {
 
 #resume_img {
   width: 55%;
+  height: 50%;
   text-align: center;
   margin: 0px;
   filter: contrast(95%);
