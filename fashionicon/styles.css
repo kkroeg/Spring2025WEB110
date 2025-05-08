@@ -1,0 +1,306 @@
+/*kat kroeger 5/11/25 Final Project*/
+body {
+  background-image: url("77668.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: sepia(20%);
+  background-color:	#eadbcb;
+  font-family: "Playwrite MX Guides", cursive;
+  text-align: center;
+  margin: 0; 
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  filter: contrast(80%);
+}
+
+body a:hover {
+  text-shadow: 0 0 1px #FF0000, 0 0 1px #0000FF;
+}
+
+main {
+  background: transparent;
+  color: black;
+}
+
+h1, h2, h3, a {
+  color: black !important;
+}
+
+
+
+h1 {
+  font-size: 2.75em;
+  background-color:	#eadbcb;
+  filter: opacity(90%);
+  padding: 0px;
+  margin-top: -1px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 60px;
+  margin-top: -5px;
+  font-size: 1.25em;
+  background-color:	#eadbcb;
+  filter: opacity(90%);
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: -55px;
+  background-color:	#eadbcb;
+  width: 100vw;
+  background-size: cover;
+  filter: opacity(90%);
+  margin-left: -40px;
+}
+
+.diagonal-box1 {
+  transform: skewY(-15deg);
+  width: 80%;
+  padding: 25px;
+  flex-grow: 1.5;
+}
+
+.diagonal-box2 {
+  transform: skewY(15deg);
+  width: 50%;
+  padding: 25px;
+  flex-grow: 1;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.diagonal-box1, .diagonal-box2 { 
+  flex: 0 1 45%;
+  width: auto; 
+  height: auto; 
+  max-width: 50%;
+}
+
+.diagonal-box1 img {
+  border-radius: 10px;
+  width: 100%;
+  height: 500px;
+  max-width: 400px; 
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+.diagonal-box2 img {
+  border-radius: 10px;
+  width: 90%;
+  min-height: 200px;
+  max-width: 400px; 
+  filter: drop-shadow(-16px 16px 10px black);
+}
+
+main a {
+  font-size: 1.75em;
+}
+
+.shop-container {
+  display: block;
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 40px;
+}
+
+.shopimg {
+  border: solid 2px transparent; 
+}
+
+.shop-container img {
+  width: 60%;
+  height: auto; 
+  max-width: 500px; 
+  object-fit: cover; 
+  border-radius: 20px;
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.shopimg:hover {
+  border: solid;
+  transition: 0.1s ease;
+}
+
+.navigation-links {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.navigation-links a:hover {
+  text-shadow: 0 0 2px #FF0000, 0 0 3px #0000FF;
+}
+.navigation-links a {
+  color: black;
+}
+
+.carousel {
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 700px;
+  overflow: hidden;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex: 0 0 100%;
+}
+
+.carousel:hover .group {
+  animation-play-state: paused;
+}
+
+.card {
+  width: 100%;
+  margin: 10px;
+  color: white;
+  border-radius: 24px;
+  padding: 20px;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  }
+  
+  .card img {
+    width: 90%; 
+    min-width: 300px;
+    max-width: 700px;
+    height: auto; 
+    border-radius: 24px; 
+    object-fit: cover; 
+  }
+
+  .group {
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+    will-change: transform; 
+    animation: scrolling 15s linear infinite;
+  }
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.click {
+  position: relative;
+  margin-right: 50px;
+  width: 15%;
+  background: white;
+  text-align: center;
+  border-radius: 25%;
+  filter: opacity(90%);
+}
+.gridbox {
+  margin-bottom: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0px;
+  justify-content: space-evenly;
+  height: 200px;
+  place-content: center;
+}
+.gridbox img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.gridbox img:hover {
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+.gridbox div {
+  width: 100%;
+}
+
+.box1, .box2, .box3, .box4 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  @keyframes scrolling {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+@media (max-width: 768px) {
+  .diagonal-box1, .diagonal-box2 {
+      width: 90%;
+      max-width: none;
+  }
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+.carousel-container {
+  max-width: 100%;
+  gap: 20px;
+}
+.gridbox {
+  padding-top: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+h1 {
+  font-size: 2.25em;
+}
+.click {
+  width: 20%;
+  margin-right: 10px;
+}
+}
+
+@media (max-width: 480px) {
+  .diagonal-box1, .diagonal-box2 {
+    width: 100%;
+    transform: none;
+  }
+.product-grid {
+  grid-template-columns: 1fr;
+}
+.carousel {
+  flex-direction: column;
+  gap: 10px;
+}
+.gridbox {
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+h1 {
+  font-size: 1.75em;
+}
+.click {
+  width: 100px;
+  margin-right: 0;
+}
+}
