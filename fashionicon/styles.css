@@ -296,6 +296,9 @@ h1 {
 .diagonal-box1 img, .diagonal-box2 img {
   max-height: 180px;
 }
+.image-container {
+  padding-bottom: 75px;
+}
 .product-grid {
   grid-template-columns: 1fr;
 }
