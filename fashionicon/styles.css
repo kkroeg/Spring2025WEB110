@@ -299,6 +299,9 @@ h1 {
 .image-container {
   padding-bottom: 75px;
 }
+.navigation-links {
+  padding-top: 100px;
+}
 .product-grid {
   grid-template-columns: 1fr;
 }
