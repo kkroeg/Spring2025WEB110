@@ -300,7 +300,8 @@ h1 {
   padding-bottom: 75px;
 }
 .navigation-links {
-  padding-top: 180px;
+  display: grid;
+  padding-top: 60px;
 }
 .product-grid {
   grid-template-columns: 1fr;
