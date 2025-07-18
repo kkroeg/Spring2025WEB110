@@ -301,7 +301,7 @@ h1 {
 }
 .navigation-links {
   display: grid;
-  padding-top: 60px;
+  padding-top: 120px;
 }
 .product-grid {
   grid-template-columns: 1fr;
