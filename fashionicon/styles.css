@@ -309,6 +309,9 @@ h1 {
 .carousel {
   gap: 10px;
 }
+.card img {
+  max-width: 100px;
+}
 .gridbox {
   padding-top: 60px;
   grid-template-columns: 60px 60px;
